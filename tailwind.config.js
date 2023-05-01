@@ -5,5 +5,13 @@ module.exports = {
     extend: {
       opacity: ['disabled']
     }
+  },
+  theme: {
+    extend: {
+      fontFamily: {
+        Playfair: ['Playfair Display', 'serif'],
+        Poppins: ['Poppins', 'sans-serif']
+      }
+    }
   }
 }
